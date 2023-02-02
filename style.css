@@ -1,5 +1,7 @@
 
 body{
+    height: 100vh;
+    margin:0;
     background-color: #242933;
     display: flex;
     justify-content: center;
