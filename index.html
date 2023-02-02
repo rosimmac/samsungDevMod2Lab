@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <div id="formulario" class="formulario">
+            <h1>Create Account</h1> 
+            <div >
+                <label > Nombre </label>
+                    <input type="text"  name="nombre" id="nombre"  autocomplete="off">
+                    <p id="errorNombre"></p>
+            </div>
+            <div >
+                <label > Email </label>
+                    <input type="email"  name="email" id="email" autocomplete="off">
+                    <p id="errorEmail"></p>
+            </div>
+            <div >
+                <label > Clave </label>
+                    <input type="password"  name="password" id="password" autocomplete="off">
+                    <p id="errorPassword"></p>
+            </div>
+            <div >
+                <label > Confirme su clave </label>
+                    <input type="password"  name="passwordConfirm" id="passwordConfirm" autocomplete="off">
+                    <p id="errorpasswordConfirm"></p>
+            </div>
+            <button id="enviar">ENVIAR</button>
+        </div>
+      
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
